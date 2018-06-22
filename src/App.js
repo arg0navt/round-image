@@ -1,6 +1,6 @@
 import React from 'react';
 import RoundImage from 'components/round-image';
-import img from "./DfhZxS.jpg"
+import img from "./eiffel-tower-paris-france-eyfeleva-bashnya-ytky.jpg"
 
 class App extends React.Component {
   constructor(){
@@ -18,7 +18,7 @@ class App extends React.Component {
     return (
       <div className="App" style={this.state.color ? {background: `rgb(${this.state.color})`} : {}}>
         <img
-          width={200}
+          width={1000}
           src={img}
           ref={(img) => this.img = img}
         />
